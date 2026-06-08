@@ -9,11 +9,11 @@ spring:
       ddl-auto: create
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     database: postgresql
-  application:
-    config:
-      customer-url: http://localhost:8222/api/v1/customers
-      product-url: http://localhost:8222/api/v1/products
-      payment-url: http://localhost:8222/api/v1/payment
+application:
+  config:
+    customer-url: http://localhost:8222/api/v1/customers
+    product-url: http://localhost:8222/api/v1/products
+    payment-url: http://localhost:8222/api/v1/payment
   kafka:
     producer:
       bootstrap-servers: localhost:9092
