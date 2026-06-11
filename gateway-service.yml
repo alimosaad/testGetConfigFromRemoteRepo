@@ -1,8 +1,5 @@
 server:
   port: 8222
-eureka:
-  client:
-    register-with-eureka: false
 spring:
   cloud:
     gateway:
